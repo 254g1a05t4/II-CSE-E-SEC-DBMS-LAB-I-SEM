@@ -2,18 +2,18 @@
 ```
 TRUNCATE table student;
 ```
-![OUTPUT](output)
+![OUTPUT](exp5b output)
 ## DESCRIBE STUDENT TABLE
 ```
 DESC student;
 ```
-![OUTPUT](output1)
+![OUTPUT](exp5b output1)
 
 ##DISPLAY STUDENT TABLE
 ```
 SELECT * FROM student;
 ```
-![OUTPUT](output2)
+![OUTPUT](exp5b output2)
 ## PL/SQL CODE
 ```
 SET SERVEROUTPUT ON;
@@ -22,9 +22,6 @@ BEGIN
 
     INSERT INTO student
     VALUES (116, 'Harish', 'CSE', 82);
-
-    ![OUTPUT](output3)
-
 
 
     INSERT INTO student
@@ -47,11 +44,13 @@ BEGIN
 
     DBMS_OUTPUT.PUT_LINE('Transaction has been committed successfully.');
 
-![OUTPUT](output4)
+
 
 EXCEPTION
     WHEN OTHERS THEN
     DBMS_OUTPUT.PUT_LINE('Error: ' || SQLERRM );
 END;
 ```
-![OUTPUT](output5)
+![OUTPUT](exp5b output4)
+
+![OUTPUT](exp5b output5)
