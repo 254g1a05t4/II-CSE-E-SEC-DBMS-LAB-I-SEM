@@ -43,7 +43,7 @@ END;
 
 INSERT INTO student8
 VALUES (101, 'Ravi', 'CSE', 85);
-
+![output1](<exp9 program1 output1.png>)
 COMMIT;
 INSERT INTO student8
 VALUES (102, 'Sita', 'ECE', 120);
@@ -53,5 +53,5 @@ VALUES (-103, 'Kiran', 'EEE', 75);
 SELECT * FROM student8;
 
 ```
-![exp9 program1 output2](./exp9%20program1%20output2.png)
+![output1](<exp9 program1 output2.png>)
 
