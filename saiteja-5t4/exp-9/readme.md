@@ -1,13 +1,14 @@
 
-##program no1```
+##PROGRAM NO1```
 CREATE TABLE student9 (
     student9_id   NUMBER(5) PRIMARY KEY,
-    student9_name VARCHAR2(50),
+    stude
+Cnt9_name VARCHAR2(50),
     course       VARCHAR2(30),
     marks        NUMBER(5,2)
 );
 ```
-![output1](<exp9 program1 output1.png>)
+![exp-9 program1 output1](./exp-9%20program1%20output1.png)
 ```
 CREATE OR REPLACE TRIGGER trg_student8_before_insert
 BEFORE INSERT ON student8
@@ -51,7 +52,5 @@ INSERT INTO student8
 VALUES (-103, 'Kiran', 'EEE', 75);
 
 SELECT * FROM student8;
-
 ```
-![exp9 program1 output2](./exp9%20program1%20output2.png)
-
+![exp-9 program1 output2](./exp-9%20program1%20output2.png)
