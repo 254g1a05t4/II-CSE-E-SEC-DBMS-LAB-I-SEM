@@ -7,7 +7,7 @@ CREATE TABLE student9 (
     marks        NUMBER(5,2)
 );
 ```
-![exp9 program1 output1](./exp9%20program1%20output1.png)
+![exp9 program1 output1](<exp9 program1 output1.png>)
 ```
 CREATE OR REPLACE TRIGGER trg_student8_before_insert
 BEFORE INSERT ON student8
